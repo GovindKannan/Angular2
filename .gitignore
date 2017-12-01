@@ -1,0 +1,40 @@
+# compiled output
+/angular-faq-app/dist
+/angular-faq-app/tmp
+/angular-faq-app/out-tsc
+
+# dependencies
+/angular-faq-app/node_modules
+
+# IDEs and editors
+/angular-faq-app/.idea
+/angular-faq-app/.project
+/angular-faq-app/.classpath
+/angular-faq-app/.c9/
+/angular-faq-app/*.launch
+/angular-faq-app/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/angular-faq-app/.vscode/*
+/angular-faq-app/!.vscode/settings.json
+/angular-faq-app/!.vscode/tasks.json
+/angular-faq-app/!.vscode/launch.json
+/angular-faq-app/!.vscode/extensions.json
+
+# misc
+/angular-faq-app/.sass-cache
+/angular-faq-app/connect.lock
+/angular-faq-app/coverage
+/libpeerconnection.log
+/angular-faq-app/npm-debug.log
+/angular-faq-app/testem.log
+/angular-faq-app/typings
+
+# e2e
+/angular-faq-app/e2e/*.js
+/angular-faq-app/e2e/*.map
+
+# System Files
+/angular-faq-app/.DS_Store
+/angular-faq-app/Thumbs.db

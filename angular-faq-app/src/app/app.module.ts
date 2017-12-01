@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuestionListComponent } from './question-list/question-list.component';
-
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,9 @@ import { QuestionListComponent } from './question-list/question-list.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    DataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

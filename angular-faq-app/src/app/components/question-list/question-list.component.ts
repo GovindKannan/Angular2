@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../services/data.service';
-import { Question } from '../models/Question';
+import { DataService } from '../../services/data.service';
+import { Question } from '../../models/Question';
 
 @Component({
   selector: 'question-list',
@@ -8,7 +8,7 @@ import { Question } from '../models/Question';
   styleUrls: ['./question-list.component.css']
 })
 export class QuestionListComponent implements OnInit {
-  questions:Object[];
+  questions:Question[];
   
   constructor(public dataService:DataService) { 
     
